@@ -1,0 +1,234 @@
+*{margin:0;padding:0;outline:0}
+body{font-family:arial;font-size:14px;line-height:18px;color:#000;background:url(images/dg.png)repeat fixed 0 0 #fff;}
+ 
+.template{width: 960px; margin: 0 auto;}
+.clear{overflow: hidden;}
+
+input[type="text"], [type="Email"] {
+	width: 300px;
+	padding: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #cfc5b6;
+	border-radius: 3px;
+}
+input[type="submit"] {
+	color: #fff;
+	background: #B7801C;
+	font-size: 21px;
+	cursor: pointer;
+	padding: 1px 16px;
+	border: 1px solid #e6af4b;
+}
+input[type="submit"]:hover{background:#FEF4E5;color:#000;}
+textarea {
+	width: 300px;
+	padding: 5px;
+	height: 110px;
+	margin-bottom: 6px;
+	border: 1px solid #cfc5b6;
+}
+
+.headersection{
+	background:#B7801C;
+	color:#fff;
+}
+.logo{
+	float: left;
+	width: 430px;
+}
+.logo img{
+	float: left;
+	margin-right: 15px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-top: 10px;
+	width: 70px;
+}
+.logo h2{
+	margin-bottom: 11px;
+	font-size: 32px;
+	margin-top: 24px;
+	color: #fff;
+	text-shadow: 2px 2px 0 #666;
+	
+}
+.logo p{}
+.social{
+	float: right;
+	padding-top: 26px;
+	width: 255px;
+}
+.social img{
+	width: 60px;
+}
+.navsection{
+	background: #e6af4b;
+}
+.navsection ul{margin:0;padding:0;list-style:none;}
+.navsection ul li{display:block;float:left;}
+.navsection ul li a{
+	background:#c48d29;
+	border: 1px solid #b7801c;
+	border-radius: 2px;
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px;
+	padding: 2px 15px 5px;
+	text-decoration: none;
+	cursor: pointer;
+	transition: 1s ease;
+}
+.navsection ul li a:hover, #active{background: #FEF4E5;color: #333;}
+.slidersection {
+	margin-bottom: 5px;
+}
+.contantsection{background: #fff;}
+.maincontant {
+	background: #fef4e5;
+	border: 1px solid #b7801c;
+	float: left;
+	margin: 0 15px 15px 0;
+	padding: 8px 20px;
+	width: 628px;
+}
+.about{}               /* This is my about page */
+.about img {
+	float: left;
+	width: 200px;
+	background: #fff;
+	padding: 5px;
+	border: 1px solid;
+	margin-right: 10px;
+	height: 250px;
+}
+.about p {
+	font-size: 16px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+.samepost{}
+.samepost h2,.about h2{
+	border-bottom: 2px solid #e0d6c7;
+	color: #ac7511;
+	font-size: 25px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.samepost img{
+	background: #fff;
+	border: 1px solid #ebb450;
+	float: left;
+	padding: 10px;
+	margin-right: 5px;
+	width: 200px;
+}
+.samepost p{
+	font-size: 16px;
+	line-height: 23px;
+	text-align: justify;
+}
+.readmore{
+	float: right;
+	margin-top: 10px;
+}
+.readmore a{
+	background: #fff;
+	border: 1px solid #B7801C;
+	border-radius: 3px;
+	color: #B7801C;
+	display: block;
+	font-size: 17px;
+	padding: 4px 8px;
+	text-decoration: none;
+}
+.readmore a:hover{color:#F7003A;}
+.sidebar{
+	background: #fef4e5;
+	border: 1px solid #b7801c;
+	float: right;
+	margin-bottom: 15px;
+	margin-top: 0;
+	padding: 10px;
+	width: 253px;
+	}
+.samesidebar{}
+.samesidebar h2{
+	background: #E6AF4B; none repeat scroll 0 0;
+	border-bottom: 2px solid #B7801C;
+	color: #fff;
+	margin-bottom: 8px;
+	padding: 10px;
+}
+.samesidebar ul{padding: 0;margin: 0;list-style: none;}
+.samesidebar ul li{
+	border-bottom: 1px dashed #e9c05c;
+	font-size: 16px;
+	padding: 5px 8px 5px 0;
+}
+.samesidebar ul li:last-child{border-bottom: 0px dashed #e9c05c;}
+.samesidebar ul li a{
+	text-decoration: none;
+	color: #814a00;
+}
+.samesidebar ul li a:hover{color: #DF5c25;}
+.samesidebar p{
+	margin-bottom: 10px;
+}
+.Popular{}
+.Popular h3{
+	border-bottom: 1px dashed #b7801c;
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+}
+.popular h3 a{text-decoration: none;color: #444;}
+.Popular img{
+	background: #fff;
+	border: 1px solid #f6bf5b;
+	border-radius: 30px;
+	margin-top: 5px;
+	width: 55px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+	padding: 3px;
+}
+.Popular p{
+	
+}
+.footersection{
+	height:90px;
+	background: #B7801C;
+	text-align: center;
+}
+.footermenu{
+	margin-top: 25px;
+	margin-bottom: 5px;
+}
+.footermenu ul{
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.footermenu ul li{
+	display: inline-block;
+}
+.footermenu ul li a{
+	color: #E6AF4B;
+	font-size: 18px;
+	margin-right: 5px;
+	text-decoration: none;
+	border: 2px solid #830000;
+	padding: 2px 20px;
+}
+.footermenu ul li a:hover{
+	color: #00FA08;
+}
+.footersection p{
+	color: #00FA08;
+}
